@@ -1,0 +1,63 @@
+@import url("https://use.typekit.net/mtd2kpp.css");
+
+h1{
+  font-family: "helvetica-neue-lt-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(242 241 237);
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+h2{
+  font-family: "helvetica-neue-lt-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(242 241 237);
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+h4{
+  font-family: "helvetica-neue-lt-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(242 241 237);
+  margin-bottom:25px;
+  line-height: 26px;
+}
+
+p{
+  font-family: "helvetica-neue-lt-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(242 241 237);
+  margin-left: 15px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+a{
+  color: rgb(131, 163, 178);
+}
+
+body{
+  background-color: rgb(24 38 50);
+  margin: 60px;
+}
+
+.album-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+h5{
+  font-family: "helvetica-neue-lt-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(242 241 237);
+  line-height: 20px;
+  font-size: 16px;
+  margin-bottom: 20px
+}
