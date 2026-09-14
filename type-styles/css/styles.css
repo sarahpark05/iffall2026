@@ -1,0 +1,115 @@
+html {
+  color: black;
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+}
+.styledfont {
+  font-family: "Crimson Text"
+}
+
+body {
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+h3 {
+  font-size: 18px;
+  color: rgb(112, 112, 112);
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+h4 {
+  font-size: 14px;
+  color: gray;
+  font-weight: 400;
+  margin-bottom: -0.8rem;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 1.2rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section {
+  margin-bottom: 3.2rem;
+}
+
+
+section.FontWeight p.regular {
+  font-weight: 400;
+}
+
+section.FontWeight p.semibold {
+  font-weight: 600;
+}
+
+section.FontWeight p.bold {
+  font-weight: 700;
+}
+
+section.FontStyle p.regular {
+  font-style: normal;
+}
+
+section.FontStyle p.italic {
+  font-style: italic;
+}
+
+section.LetterSpacing p.regular {
+  letter-spacing: normal;
+}
+
+section.LetterSpacing p.wide {
+  letter-spacing: .3em;
+}
+
+section.LetterSpacing p.narrow {
+  letter-spacing: -0.06em;
+}
+
+section.TextDecoration p.none {
+  text-decoration: none;
+}
+
+section.TextDecoration p.underline {
+  text-decoration: underline;
+}
+
+section.TextDecoration p.linethrough {
+  text-decoration: line-through;
+}
+
+section.TextDecoration p.overline {
+  text-decoration: overline;
+}
+
+section.TextTransform p.none {
+  text-transform: none;
+}
+
+section.TextTransform p.uppercase {
+  text-transform: uppercase;
+}
+
+section.TextTransform p.lowercase {
+  text-transform: lowercase;
+}
+
+section.TextTransform p.capitalize {
+  text-transform: capitalize;
+}
