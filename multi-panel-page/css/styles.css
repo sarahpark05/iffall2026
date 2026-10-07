@@ -1,0 +1,187 @@
+body {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+h1{
+  margin: 0;
+  text-align: center;
+  font-size: 80px;
+  line-height: 1;
+  margin-bottom: 16px;
+  color: white;
+}
+
+h2{
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1;
+  color: white;
+}
+
+h3{
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 38px;
+}
+
+
+p {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+  margin-right: 20px;
+}
+
+
+.content-column {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 48px;
+}
+
+
+header {
+  background-image: url(../images/moomin-header.png);
+  background-size: cover;
+  background-position: center;
+}
+
+header .content-column {
+  padding-top: 166px;
+  padding-bottom: 188px;
+}
+
+section .content-column {
+  padding-bottom: 40px;
+  padding-top: 48px;
+
+}
+
+section:first-of-type {
+  background-color: rgb(17, 17, 77);
+}
+
+section:first-of-type img{
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  float: right;
+  margin-left: 40px;
+  margin-bottom: 40px; 
+  margin-right: 20px;
+}
+
+section:first-of-type h3{
+  color: white;
+}
+
+section:first-of-type p{
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 20px;
+  max-width: 961px;
+}
+
+.photo-item {
+  display: grid;
+
+  grid-template-columns: 200px 1fr;
+  gap: 12px;
+  align-items: start;
+}
+
+.photo-item img{
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.content-column ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 20px;
+
+}
+
+li {
+  display: list-item;
+  unicode-bidi: isolate;
+  padding-bottom: 24px;
+}
+
+.photo-text {
+  gap: 24px;
+  align-items: start;
+  min-width: 0;
+}
+
+.photo-text p {
+  margin: 0;
+  margin-top: 7px;
+  width: 220px;
+}
+
+.photo-text h4 {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.photo-text p {
+  color: rgb(112, 112, 112);
+}
+
+section:nth-of-type(2) {
+  background-color: rgb(241, 241, 175);
+}
+
+section:nth-of-type(2) .content-column {
+  padding-bottom: 24px;
+}
+
+
+.large-text {
+  font-size: 26px;
+  text-align: center;
+  line-height: 1.4;
+  margin: 0px;
+  color: rgb(17, 17, 77);
+}
+
+section:nth-of-type(3) {
+  background-color: rgb(154, 215, 235);
+  padding-bottom: 60px;
+}
+
+section:nth-of-type(3) h3 {
+  color: rgb(17, 17, 77);
+}
+
+section:nth-of-type(3) .content-column {
+  width: 710px;
+}
+
+footer {
+  margin: 0;
+  background-color: rgb(180, 224, 180);
+}
+
+footer .content-column{
+  padding-top: 40px;
+  padding-bottom: 24px;
+}
+footer p{
+  color: rgb(40, 101, 40);
+}
