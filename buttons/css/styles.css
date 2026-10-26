@@ -1,0 +1,165 @@
+a#btn_glossier {
+  font-family: helvetica-lt-pro, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 24px;
+  text-decoration: none;
+  color: #e9002f;
+  display: inline-block;
+  height: 60px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 105px;
+	padding: 15px 30px 0 30px;
+	background-color: #fce6e9;
+  transition: all 0.3s ease;
+}
+
+a#btn_glossier:hover {
+  background-color: #e9002f;
+  color: #fce6e9;
+  box-shadow: 0 0 12px rgba(233, 0, 47, 0.35),
+              0 0 28px rgba(233, 0, 47, 0.2);
+  animation: glossier-sparkle 1.0s ease-in-out infinite alternate;
+}
+
+@keyframes glossier-sparkle {
+  from {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fce6e9;
+  }
+  to {
+    text-shadow: 0 0 4px #fff, 0 0 10px #fff;
+  }
+}
+
+.btn_wrap_duo {
+  position: relative;
+  display: inline-block;
+  margin-top: 105px;
+}
+
+a#btn_duolingo {
+  font-family: "Feather Bold";
+  font-weight: 700;
+  font-size: 24px;
+  color: #58CC02;
+  text-decoration: none;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 50px;
+  position: relative;
+  height: 60px;
+  background-color: #ffffff;
+  padding: 13px 30px 0 30px;
+  border: 3px solid #58CC02;
+  z-index: 2;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+a#btn_duolingo:hover {
+  background: linear-gradient(45deg, #2b70c9, #58CC02);
+  color: white;
+}
+
+.button_container .duo-mascot {
+  position: absolute;
+  width: 65px;
+  height: auto;
+  left: 50%;
+  bottom: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-50%, 15px) scale(0.8);
+  z-index: 1;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.35s ease, visibility 0.3s ease;
+}
+
+a#btn_duolingo:hover + .duo-mascot {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, 0) scale(1);
+}
+
+a#btn_vans {
+  font-family: "neue-haas-grotesk-text", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  text-decoration: none;
+  display: inline-block;
+  box-sizing: border-box;
+	border-radius: 10px;
+	margin-top: 105px;
+  padding-top: 8px;
+  color: black;
+  padding: 15px 30px;
+  border: 2px solid #000000;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+a#btn_vans:hover {
+  color: white;
+  background-color: white;
+  border: none;
+  background-image:
+    linear-gradient(45deg, black 25%, transparent 25%),
+    linear-gradient(-45deg, black 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, black 75%),
+    linear-gradient(-45deg, transparent 75%, black 75%);
+  background-size: 16px 16px;
+  background-position:
+    0 0, 0 8px, 8px -8px, -8px 0;
+}
+
+a#btn_vans:hover span {
+  background-color: #D5181F;
+  padding: 2px 4px;
+}
+
+a#btn_owala {
+  font-family: "QuicksansAccurateICG-Fill";
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px;
+	background-color: #a0dff9;
+  background-image: linear-gradient(to right,#a0dff9, #ffb3d4); 
+}
+
+a#btn_owala:hover {
+  border: 3px solid #a0dff9;
+  background: #ffb3d4;
+  color: white;
+  padding: 8px 40px;
+}
+
+a#btn_starbucks {
+  font-family: "Sans";
+  font-weight: 700;
+  font-style: bold;
+  font-size: 26px;
+  text-decoration: none;
+  color: #00704A;
+  display: inline-block;
+  box-sizing: border-box;
+	border-radius: 50px;
+	margin-top: 105px;
+  padding-top: 8px;
+  padding: 15px 30px 10px 30px;
+  border: 5px solid #00704A;
+  background-color: #fbfaf0;
+  transition: transform 0.6s ease, background-color 0.6s ease;
+}
+
+a#btn_starbucks:hover {
+  background-color: #00704A;
+  color:#fbfaf0;
+}
