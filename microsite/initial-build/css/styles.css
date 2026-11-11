@@ -1,0 +1,540 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 13rem;
+  font-family: "futura-pt", sans-serif;
+  font-style: normal;
+}
+
+section {
+  padding-bottom: 6rem;
+}
+
+.content-container {
+  position: relative;
+  z-index: 2; 
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;  
+  gap: 40px;
+  align-items: start;
+}
+
+.caption-block {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.vertical-accent {
+  width: 4px;
+  height: 24px;
+  background-color: #000;
+}
+
+/* .bg-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+} */
+
+.cross-hair {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.shape-group {
+  position: absolute;
+  top: 105px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: 2fr 1fr;  
+  gap: 40px;
+  align-items: center;
+}
+
+.title h3 {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.black-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 23.5px;
+  width: 250px;
+  z-index: 2;
+}
+
+.black-lines .line {
+  display: block;
+  height: 12px; 
+  background-color: #000;
+}
+
+/* .yellow-semi-circle {
+  position: absolute;
+  left: 140px;
+  width: 120px;
+  height: 240px;
+  background-color: #f3c614;
+  border-top-right-radius: 120px;
+  border-bottom-right-radius: 120px;
+  z-index: 1;
+} */
+
+/* .landing-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
+  gap: 40px;
+  align-items: start;
+} */
+
+.home-page .landing-page img {
+  width: 1000px;
+  height: auto;
+}
+
+.home-page section img {
+  width: 350px;
+  height: 500px;
+  max-width:100%;
+}
+
+.section-content {
+  gap: 1rem;
+}
+
+.history,.people-work,.legacy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
+  gap: 40px;
+  align-items: start;
+}
+
+header{
+  position: static;
+  top: 0;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  padding-bottom: 2rem;
+}
+
+nav .logo {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  font-weight: 500;
+  align-items: left;
+  font-size: 1.3rem;
+}
+
+.logo img {
+  width: 55px;
+  height: 55px;
+}
+
+.logo span {
+  font-weight: 700;
+  font-style: normal;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 18px;
+  font-weight: 500;
+  font-size: 1.3rem;
+  align-items: right;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 8rem;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.introduction {
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
+  gap: 40px;
+  align-items: start;
+}
+
+.button-history a{
+  font-family: "futura-pt-condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  background-color: #E8C018;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 15px 25px;
+}
+
+.button-history a:hover {
+  background-color: white;
+  border: 3px solid #E8C018;
+}
+
+.button-history a:active {
+  background-color: #eddc98;
+  border: 3px solid #E8C018;
+}
+
+
+.button-people-work a{
+  font-family: "futura-pt-condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  background-color: #C8302A;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 15px 25px;
+}
+
+.button-people-work a:hover {
+  color: black;
+  background-color: white;
+  border: 3px solid #C8302A;
+}
+
+.button-people-work a:active {
+  color: white;
+  background-color: #d69390;
+  border: 3px solid #C8302A;
+}
+
+.button-legacy a{
+  font-family: "futura-pt-condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  background-color: #00349D;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 15px 25px;
+}
+
+.button-legacy a:hover {
+  color: black;
+  background-color: white;
+  border: 3px solid #00349D;
+}
+
+.button-legacy a:active {
+  color: white;
+  background-color: #88a5dd;
+  border: 3px solid #00349D;
+}
+
+.introduction h2, h3 {
+  margin: 0;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.footer-divider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.footer-divider hr {
+    flex: 1;
+    border: none;
+    border-top: 0.3em solid #E8C018;
+}
+
+.footer-divider img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  align-items: center;
+  text-decoration: none;
+}
+
+.copyright {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+
+@media (max-width: 1330px) {
+  body{
+    padding: 2rem 10rem;
+  }
+}
+
+
+/* history page css */
+
+.history-timeline {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 20px 0px;
+  z-index: 10;
+}
+
+.history-timeline ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 40px;
+}
+
+.history-timeline a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.history-timeline .bar {
+  display: block;
+  height: 24px;
+  background: #d7d7d7;
+  margin-bottom: 14px;
+}
+
+.history-timeline .year{
+  display: block;
+  font-weight: 500;
+}
+
+.history-timeline .bar:hover{
+  background: #b1b1b1;
+  transition: 0.25s;
+}
+
+.history-timeline .bar:active{
+  background: #C8302A;
+}
+
+section[id] {
+  scroll-margin-top: 130px;
+}
+
+.history-page h1 {
+  font-size: 4rem;
+}
+
+.history-page h2 {
+  padding-bottom: 4%;
+}
+
+.era-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 48px;
+  align-items: start;  
+}
+
+.era-content img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.era-text h3 {
+  padding-bottom: 3%;
+}
+
+.era-text p {
+  padding-bottom: 4%;
+}
+
+.era-text h3:not(:first-child) {
+  margin-top: 4%; 
+}
+
+
+/* people & work page css */
+
+.people-work-page h1 {
+  font-size: 4rem;
+}
+
+.key-figures ul {
+  list-style: none;                        
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 44px 36px;  
+}
+
+.key-figures li {
+  min-width: 0;
+}
+
+.key-figures img {
+  width: 100%; 
+  height: auto;
+  display: block;
+  padding-bottom: 4%;
+}
+
+.people-work-page h2 {
+  padding-bottom: 4%;
+}
+
+.people-work-page h3 {
+  font-size: 1.4rem;
+  padding-bottom: 2%;
+}
+
+.people-work-page h4 {
+  font-size: 1rem;
+  padding-bottom: 4%;
+  color: #00349D;
+}
+
+.people-work-page p {
+  font-size: 1.05rem;
+}
+
+.people-work-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 42px;
+}
+
+.people-work-grid img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  padding-bottom: 5%;
+}
+
+/* legacy page css */
+
+.legacy-page h1 {
+  font-size: 4rem;
+}
+
+.legacy-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  gap: 40px;
+  align-items: start; 
+}
+
+.legacy-grid img {
+  width: 100%;             
+  height: auto;          
+  display: block;
+}
+
+.legacy-page h2{
+  padding-bottom: 14px;
+}
+
+.legacy-page h3{
+  padding-bottom: 10px;
+}
+
+.legacy-page p{
+  padding-bottom: 30px;
+}
+
+.legacy-grid h4 {
+  margin: 16px 0 8px;
+}
+
+.legacy-grid p {
+  margin: 0;
+}
